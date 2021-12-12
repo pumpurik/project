@@ -1,0 +1,273 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+width:100%; }
+
+
+.hidden {
+  display:none;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.page-header {
+  padding:15px;
+  position:relative;
+  padding-bottom:20px;
+  box-shadow:5px 0 5px #56545e;
+}
+
+.dark-theme .page-header {
+  background-color: #373540;
+}
+.page-header img {
+  float:left;
+
+}
+
+.page-header::after {
+  content:'The Daily Bugle';
+  font-size:16px;
+  position:absolute;
+  top:30px;
+  left:530px;
+  text-transform: uppercase;
+
+}
+
+.light-theme .page-header::after {
+  color:#6653d9;
+}
+
+.dark-theme .page-header::after {
+  color:#17161a;
+}
+.subscription-link {
+  float:right;
+  margin-right:15px;
+}
+
+.page-header button {
+  float:right;
+  width:200px;
+  height:30px;
+  border:1px solid;
+  margin-top:15px;
+  
+}
+
+.light-theme .page-header button {
+  background-color: white;
+  color:#6653d9;
+  border-color:#6653d9;
+  
+}
+
+.dark-theme .page-header button {
+  background-color: #373540;
+  color:#9484F2;
+  border:1px solid #9484F2;
+}
+
+.dark-theme .main-page , .dark-theme .news-header{
+  background-color: #56545e;
+}
+.dark-theme .page-header::after {
+  color: #9484F2;
+  border-color: #474749;
+}
+
+.light-theme .page-header button:hover {
+  background-color:#6653d9;
+  color:white;
+
+}
+
+.dark-theme .page-header button:hover {
+  background-color:#474749;
+  color: #9484F2;
+
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+.subscription-link {
+  position: relative;
+  padding-top: 8px;
+  padding-right: 2px;
+  padding-bottom: 6px;
+  padding-left: 26px;
+  margin: auto 4%;
+  text-decoration: none;
+  background:url("img/subs.jpg") no-repeat;
+  background-size: 25px 25px;
+  
+
+}
+.subscription-link:hover {
+  border-bottom:2px solid;
+}
+
+.subscription-link:active {
+  opacity:0.6;
+}
+
+.light-theme .subscription-link {
+  color: #6653d9;
+  outline-color: #b6aaff;
+}
+
+.dark-theme .news-list {
+  background-color: #373540;
+}
+
+.dark-theme .subscription-link {
+  color: #9484F2;
+
+}
+.light-theme .subscription-link:hover {
+  border-color: #6653d9;
+}
+
+.dark-theme .subscription-link:hover {
+  border-color: #17161a;
+}
+.news-list
+ {
+   margin:0;
+   padding-top:10px;
+   background-color: #b6aaff;
+   padding-bottom:50px;
+ 
+}
+.news-block {
+  position:relative;
+  margin:0 auto;
+  width:30%;
+  margin-bottom:20px;
+  padding:20px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.light-theme .news-block {
+  box-shadow: 5px 5px 5px #0f0066aa;
+
+}
+
+.dark-theme .news-block {
+  box-shadow: 5px 5px 5px black;
+}
+.news-block:last-child{
+  margin-bottom:40px;
+}
+
+.news-block h3 {
+  font-size:20px;
+}
+
+.news-tag {
+  padding: 8px;
+  margin: 0 auto 0 0;
+  border-radius: 12px;
+}
+
+.light-theme .news-tag {
+  color: #aaaaaa;
+  background-color: #f2f2f2;
+}
+
+.dark-theme .news-tag {
+  color: #888888;
+  background-color: #0a0910;
+}
+
+time {
+  font-size:12px;
+  color:#888888;
+
+}
+
+.btn {
+  text-decoration: none;
+  position:absolute;
+  bottom:10px;
+  right:10px;
+  border:1px solid;
+  border-radius: 12px;
+  padding:5px;
+  
+}
+
+.light-theme .btn {
+  border-color:#6653d9;
+  color:#6653d9;
+}
+
+.dark-theme .btn {
+  border-color: #17161a;
+  color:#17161a;
+}
+.light-theme .btn:hover {
+  color:white;
+  background-color: #6653d9;
+}
+
+.dark-theme .btn:hover {
+  color:#888888;
+  background-color:#0a0910;
+}
+.page-footer {
+  padding:20px;
+  
+  font-size:25px;
+}
+
+.light-theme .page-footer {
+  background-color: #6653d9;
+
+}
+
+.dark-theme .page-footer {
+  background-color: #0a0910;
+  color:#888888;
+}
+.news-header{
+  padding:30px;
+}
+
+.light-theme .news-header h1 {
+  color:#6653d9;
+
+}
+
+.dark-theme .news-header h1 {
+  color: #888888;
+}
+.news-header p {
+  margin-top:20px;
+  font-size:18px;
+}
+
+.main-page {
+  padding-top:20px;
+}
+
+.main-page:not(h2) {
+  font-size:18px;
+  padding:20px;
+
+}
+.light-theme .main-page h2 {
+  color:#6653d9;
+}
+
+.dark-theme .main-page h2 {
+  color: #888888;
+}
